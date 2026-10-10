@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoldenLoaf | Freshly Baked, Always</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lol.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="GoldenLoaf home">
+      <span class="brand-mark">🌾</span>
+      <span><strong>GoldenLoaf</strong><small>Freshly Baked, Always</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="button button-small" href="#products">Order Now <span>→</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-photo"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Premium bakery pastries</p>
+        <h1>Fresh Bakes<br><em>For a Better Day</em></h1>
+        <p class="hero-copy">From traditional bread to delicious pastries, we craft fresh, high-quality baked goods using the finest ingredients. Because every bite should feel special.</p>
+        <div class="hero-actions">
+          <a class="button" href="#products">Order Now <span>→</span></a>
+          <a class="button button-outline" href="#about"><span class="play">▶</span> Watch Our Story</a>
+        </div>
+      </div>
+      <div class="hero-features">
+        <div><span class="feature-icon">♧</span><span><b>100%</b><small>Natural Ingredients</small></span></div>
+        <div><span class="feature-icon">♢</span><span><b>Fresh Daily</b><small>From Our Oven</small></span></div>
+        <div><span class="feature-icon">♧</span><span><b>Fast Delivery</b><small>To Your Door</small></span></div>
+        <div><span class="feature-icon">♡</span><span><b>Loved by</b><small>Thousands</small></span></div>
+      </div>
+    </section>
+
+    <section class="section categories" id="products">
+      <div class="section-heading">
+        <p class="eyebrow">Our categories</p>
+        <h2>Our Delicious <em>Categories</em></h2>
+        <p>Explore our wide range of freshly baked goods, made with love.</p>
+      </div>
+      <div class="category-grid">
+        <article class="category-card">
+          <img src="fresh bread.jpg" alt="Fresh rustic bread">
+          <div class="round-icon">♨</div>
+          <div class="card-copy"><h3>Fresh Bread</h3><p>Traditional and artisan breads, baked daily.</p><a href="#bestsellers" aria-label="Explore fresh bread">→</a></div>
+        </article>
+        <article class="category-card">
+          <img src="pastries.jpg" alt="Golden butter croissants">
+          <div class="round-icon">♧</div>
+          <div class="card-copy"><h3>Pastries</h3><p>Flaky, buttery and irresistible.</p><a href="#bestsellers" aria-label="Explore pastries">→</a></div>
+        </article>
+        <article class="category-card">
+          <img src="cakes" alt="Freshly decorated cake">
+          <div class="round-icon">♙</div>
+          <div class="card-copy"><h3>Cakes</h3><p>For every occasion and celebration.</p><a href="#bestsellers" aria-label="Explore cakes">→</a></div>
+        </article>
+        <article class="category-card">
+          <img src="COC" alt="Chocolate chip cookies">
+          <div class="round-icon">◉</div>
+          <div class="card-copy"><h3>Cookies &amp; Biscuits</h3><p>Small bites, big happiness.</p><a href="#bestsellers" aria-label="Explore cookies">→</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-image">
+        <img src="Rustic freshly baked bread on a bakery counter.jpg" alt="Rustic freshly baked bread on a bakery counter">
+        <div class="experience"><span>● ● ●</span><strong>5+</strong><small>Years of Baking Excellence</small></div>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">About us</p>
+        <h2>The Taste of<br><em>Real Freshness</em></h2>
+        <p>At GoldenLoaf, we believe that great bread and pastries bring people together. That's why we use only the finest ingredients, traditional recipes and a lot of love in every batch we bake.</p>
+        <div class="trust-points"><span>🌾 Fresh Ingredients</span><span>♡ Homemade Quality</span><span>★ Customer Satisfaction</span></div>
+        <a class="button" href="#contact">Learn More <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Bakery statistics">
+      <div><span>🥖</span><strong>50k+</strong><small>Happy Customers</small></div>
+      <div><span>♙</span><strong>200+</strong><small>Daily Fresh Products</small></div>
+      <div><span>🚚</span><strong>5+</strong><small>Years of Experience</small></div>
+      <div><span>⌖</span><strong>3</strong><small>Branches</small></div>
+    </section>
+
+    <section class="section bestsellers" id="bestsellers">
+      <div class="section-heading">
+        <p class="eyebrow">Our bestsellers</p>
+        <h2>Some of Our Favorite Bakes</h2>
+        <p>Take a look at some of the most loved products by our customers.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card"><img src="Croissants.webp" alt="croissant"><div class="product-info"><h3>Croissant</h3><p>Buttery, flaky and fresh.</p><div class="product-bottom"><strong>$2.50</strong><button type="button">＋ Add to Cart</button></div></div></article>
+        <article class="product-card"><img src="Chocolate Cake.webp" alt="Chocolate cake"><div class="product-info"><h3>Chocolate Cake</h3><p>Rich flavor, soft texture.</p><div class="product-bottom"><strong>$4.50</strong><button type="button">＋ Add to Cart</button></div></div></article>
+        <article class="product-card"><img src="Chocolate Chip Cookies.webp" alt="Chocolate chip cookies"><div class="product-info"><h3>Chocolate Chip Cookies</h3><p>Classic and always loved.</p><div class="product-bottom"><strong>$2.00</strong><button type="button">＋ Add to Cart</button></div></div></article>
+        <article class="product-card"><img src="Sourdough Bread.webp" alt="Rustic sourdough loaf"><div class="product-info"><h3>Sourdough Bread</h3><p>Healthy, natural, delicious.</p><div class="product-bottom"><strong>$3.50</strong><button type="button">＋ Add to Cart</button></div></div></article>
+      </div>
+    </section>
+
+    <section class="testimonials" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">Testimonials</p>
+        <h2>What Our Customers Say</h2>
+        <p>Real people. Real stories. Freshly baked.</p>
+      </div>
+      <div class="review-grid">
+        <article class="review"><span class="quote">“</span><p>“The best bakery in town! Their croissants are simply amazing. Always fresh and delicious.”</p><strong>Sarah Ahmed</strong><div class="stars">★★★★★</div></article>
+        <article class="review"><span class="quote">“</span><p>“I ordered a cake for my birthday and it was beyond perfect. Everyone loved it!”</p><strong>Omar Khaled</strong><div class="stars">★★★★★</div></article>
+        <article class="review"><span class="quote">“</span><p>“Fresh, tasty and great service. GoldenLoaf is my go-to bakery always!”</p><strong>Nour Mohamed</strong><div class="stars">★★★★★</div></article>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div><p class="eyebrow">Stay updated</p><h2>Get Fresh Deals &amp; New Products</h2><p>Subscribe to our newsletter and be the first to know about our latest offers.</p></div>
+      <form action="#" method="get" onsubmit="event.preventDefault(); alert('Thanks for subscribing!');">
+        <label class="visually-hidden" for="email">Your email address</label>
+        <input id="email" type="email" placeholder="Your email address" required>
+        <button class="button" type="submit">Subscribe <span>→</span></button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-main">
+      <div class="footer-brand"><a class="brand" href="#home"><span class="brand-mark">🌾</span><span><strong>GoldenLoaf</strong><small>Freshly Baked, Always</small></span></a><p>Bringing moments of joy, one fresh bake at a time.</p><div class="socials"><a href="#contact" aria-label="Facebook">f</a><a href="#contact" aria-label="Instagram">◎</a><a href="#contact" aria-label="TikTok">♪</a><a href="#contact" aria-label="YouTube">▶</a></div></div>
+      <div><h3>Quick Links</h3><a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+      <div><h3>Our Products</h3><a href="#products">Breads</a><a href="#products">Pastries</a><a href="#products">Cakes</a><a href="#products">Cookies</a><a href="#products">Special Orders</a></div>
+      <div><h3>Contact Us</h3><p>✉ info@goldenloaf.com</p><p>☎ +20 123 456 7890</p><p>⌖ Cairo, Egypt</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 GoldenLoaf. All Rights Reserved.</span><span><a href="#contact">Privacy Policy</a>　 <a href="#contact">Terms of Service</a></span></div>
+  </footer>
+</body>
+</html>
